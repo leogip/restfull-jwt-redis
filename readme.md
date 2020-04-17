@@ -35,7 +35,7 @@ POST
 ```
 
 GET
-[http://localhost:5000/api/auth/confirm/confirm-token](http://localhost:5000/api/auth/confirm/${confirm-token})
+[http://localhost:5000/api/auth/confirm/confirm-token](http://localhost:5000/api/auth/confirm/confirm-token)
 
 ```
 {
@@ -75,7 +75,7 @@ POST
 ```
 
 POST
-[http://localhost:5000/api/auth/reset/token](http://localhost:5000/api/auth/reset/${token})
+[http://localhost:5000/api/auth/reset/token](http://localhost:5000/api/auth/reset/token)
 
 ```
 {
@@ -96,10 +96,10 @@ GET / TOKEN
 [http://localhost:5000/api/user/current](http://localhost:5000/api/user/current)
 
 GET / TOKEN
-[http://localhost:5000/api/user/id](http://localhost:5000/api/user/${id))
+[http://localhost:5000/api/user/id](http://localhost:5000/api/user/id)
 
 PUT / TOKEN
-[http://localhost:5000/api/user/id](http://localhost:5000/api/user/${id})
+[http://localhost:5000/api/user/id](http://localhost:5000/api/user/id)
 
 ```
 {
@@ -111,4 +111,4 @@ PUT / TOKEN
 ```
 
 DELETE / TOKEN
-[http://localhost:5000/api/user/id](http://localhost:5000/api/user/${id})
+[http://localhost:5000/api/user/id](http://localhost:5000/api/user/id)
